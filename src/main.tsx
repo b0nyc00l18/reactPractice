@@ -1,9 +1,9 @@
-import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App.tsx'
-import { store } from './app/store'
+import { store } from './app/store.tsx'
 import { Provider } from 'react-redux'
+// import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.render(
     <Provider store={store}>
